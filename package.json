@@ -7,12 +7,12 @@
     "types": "build/index.d.ts",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/prezly/slate.git"
+        "url": "git+https://github.com/prezly/linear-partitioning.git"
     },
     "bugs": {
-        "url": "https://github.com/prezly/slate/issues"
+        "url": "https://github.com/prezly/linear-partitioning/issues"
     },
-    "homepage": "https://github.com/prezly/slate#readme",
+    "homepage": "https://github.com/prezly/linear-partitioning#readme",
     "scripts": {
         "build": "tsc --project .",
         "check": "npm run prettier && npm run test",

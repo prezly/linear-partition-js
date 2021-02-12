@@ -2,8 +2,8 @@
 
 ![Version](https://img.shields.io/npm/v/@prezly/linear-partition)
 ![License](https://img.shields.io/npm/l/@prezly/linear-partition)
-![Build](https://github.com/kamilmielnik/scrabble-solver/workflows/Build/badge.svg)
-![Test](https://github.com/kamilmielnik/scrabble-solver/workflows/Test/badge.svg)
+![Build](https://github.com/prezly/slate/workflows/Build/badge.svg)
+![Test](https://github.com/prezly/slate/workflows/Test/badge.svg)
 ![Prettier](https://github.com/prezly/slate/workflows/Prettier/badge.svg)
 
 Solution to The Partition Problem, in TypeScript.
