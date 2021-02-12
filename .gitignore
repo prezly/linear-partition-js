@@ -1,0 +1,10 @@
+.next/
+build/
+dist/
+coverage/
+node_modules/
+*.eslintcache
+*.db
+*.log
+*.zip
+*.txt
