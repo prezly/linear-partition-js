@@ -12,3 +12,6 @@ Solution to The Partition Problem, in TypeScript.
 - which is based on: http://www8.cs.umu.se/kurser/TDBAfl/VT06/algorithms/BOOK/BOOK2/NODE45.HTM
 - related stackoverflow thread: https://stackoverflow.com/questions/7938809/how-to-understand-the-dynamic-programming-solution-in-linear-partitioning/7942946
 
+----
+
+Brought to you by [Prezly](https://www.prezly.com/?utm_source=github&utm_campaign=@prezly/linear-partitioning).
