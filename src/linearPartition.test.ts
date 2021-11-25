@@ -1,4 +1,4 @@
-import linearPartition from './linearPartition';
+import { linearPartition } from './linearPartition';
 
 describe('linearPartition', () => {
     const tests = [

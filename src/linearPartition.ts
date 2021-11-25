@@ -68,7 +68,7 @@ const reconstructPartitioning = (S: number[], D: number[][], n: number, k: numbe
     return partition.reverse();
 };
 
-function partition(elements: number[], maxRanges: number): number[][] {
+export function linearPartition(elements: number[], maxRanges: number): number[][] {
     const n = elements.length;
     const k = maxRanges;
 
@@ -108,7 +108,3 @@ function partition(elements: number[], maxRanges: number): number[][] {
 
     return reconstructPartitioning(S, D, n, k);
 }
-
-export { partition };
-
-export default partition;

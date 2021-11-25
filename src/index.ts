@@ -1,1 +1,4 @@
-export { default } from './linearPartition';
+import { linearPartition } from './linearPartition';
+
+export { linearPartition };
+export default linearPartition;
