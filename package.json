@@ -1,6 +1,6 @@
 {
     "name": "@prezly/linear-partition",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Solution to The Partition Problem, in TypeScript",
     "license": "MIT",
     "main": "build/index.js",
