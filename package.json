@@ -15,6 +15,7 @@
     "homepage": "https://github.com/prezly/linear-partitioning#readme",
     "scripts": {
         "build": "tsc --project .",
+        "watch": "tsc --watch --preserveWatchOutput --project .",
         "check": "npm run prettier && npm run test",
         "clean": "rimraf build/ node_modules/",
         "prettier": "prettier --check './**/*.(js|ts|scss)'",
