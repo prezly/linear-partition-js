@@ -65,7 +65,8 @@ const reconstructPartitioning = (S: number[], D: number[][], n: number, k: numbe
     }
 
     // Fix order as we reconstructed the partitioning from end to start
-    return partition.reverse();
+    // Ignoring possibly empty rows, appearing when there are no delimiters for the given `j` index.
+    return partition.reverse().filter((row) => row.length > 0);
 };
 
 export function linearPartition(elements: number[], maxRanges: number): number[][] {
