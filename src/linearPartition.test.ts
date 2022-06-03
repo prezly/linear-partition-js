@@ -71,6 +71,13 @@ describe('linearPartition', () => {
                 [74, 77, 133, 64],
             ],
         },
+        {
+            input: {
+                elements: [150, 66.65, 66.65, 150, 100, 150, 66.65],
+                maxRanges: 11,
+            },
+            output: [[150], [66.65, 66.65], [150], [100], [150], [66.65]],
+        },
     ];
 
     tests.forEach(({ input: { elements, maxRanges }, output }) => {
